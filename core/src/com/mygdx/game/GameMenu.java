@@ -114,8 +114,8 @@ public class GameMenu extends Menu {
         batch.draw(playerReg, charX - JOYSIZE/4, charY - JOYSIZE/4, JOYSIZE/4, JOYSIZE/4, JOYSIZE/2, JOYSIZE/2, 1, 1, curCharAngle/*+30*/);
         batch.draw(wepReg, charX-JOYSIZE/4, charY+JOYSIZE/5, JOYSIZE/4, -JOYSIZE/5, JOYSIZE/2, JOYSIZE/2, 1, 1, curWepAngle);
         batch.end();
-        leftGameJoy.draw(batch, renderer, 0.1f);
-        rightGameJoy.draw(batch, renderer, 0.1f);
+        leftGameJoy.draw(batch, renderer, 1.0f);
+        rightGameJoy.draw(batch, renderer, 1.0f);
         super.draw(batch, renderer);
     }
 
